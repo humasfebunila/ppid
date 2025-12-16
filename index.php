@@ -34,3 +34,11 @@ $info = $pdo->query("SELECT * FROM informasi ORDER BY created_at DESC")->fetchAl
     </footer>
 </body>
 </html>
+
+<?php include 'header.php'; ?>
+
+<h2>Daftar Informasi Publik</h2>
+<?php include 'info_list.php'; ?>
+
+<?php include 'footer.php'; ?>
+
